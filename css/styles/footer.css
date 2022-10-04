@@ -1,6 +1,6 @@
 .footer__pages {
     width: 100vw;
-    background: no-repeat center / cover url(./images/footer/02.png);
+    background: no-repeat center / cover url(../../images/footer/02.png);
 }
 
 .container {}
