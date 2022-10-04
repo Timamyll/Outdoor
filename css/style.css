@@ -1,0 +1,50 @@
+@import url(./styles/promo.css);
+@import url(./styles/nav.css);
+@import url(./styles/about.css);
+@import url(./styles/title.css);
+@import url(./styles/setting.css);
+@import url(./styles/store.css);
+@import url(./styles/gps.css);
+@import url(./styles/check.css);
+@import url(./styles/navigating.css);
+@import url(./styles/some.css);
+@import url(./styles/footer.css);
+@import url(./styles/gamburger.css);
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,82 @@
+.check {
+    width: 100vw;
+    background: no-repeat center / cover url(/images/check/01.png);
+}
+
+.container {}
+
+.check__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.check__more {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 140% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+
+.check__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    /* identical to box height, or 120% */
+    text-align: center;
+    color: #E6B939;
+}
+
+.check__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 120% */
+    text-align: center;
+    color: #FAFAFC;
+    max-width: 416px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.check__bottom {
+    width: 114px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 149% */
+    text-align: center;
+    color: #575445;
+    padding: 11px 18px 10px 18px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 70px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 1px solid #375C58;
+}
+
+.check__bottom:hover {
+    background: #375C58;
+    color: white;
+    border: 1px solid #fff;
+}
+
+@media (max-width: 664px) {
+    .check__more {
+        font-size: 10px;
+    }
+    .check__title {
+        font-size: 25px;
+    }
+    .check__text {
+        font-size: 12px;
+    }
+}

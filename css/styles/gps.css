@@ -1,0 +1,92 @@
+.gps {
+    width: 100vw;
+    background: no-repeat center / cover url(/images/gps/05.png);
+    height: 528px;
+}
+
+.container {}
+
+.gps__body {
+    position: relative;
+}
+
+.gps__box {
+    display: flex;
+    gap: 66px;
+    background: #292C32;
+    border-radius: 16px;
+    padding: 16px 22px 16px 22px;
+    width: 50%;
+    position: absolute;
+    top: 409px;
+    /* transform: translateY(80%); */
+    right: 50px;
+}
+
+.gps__bonger {}
+
+.bonger__imgs {}
+
+.bonger__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+}
+
+.gps__brion {}
+
+.brion__imgs {}
+
+.brion__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+}
+
+.gps__lean {}
+
+.lean__imgs {}
+
+.gps__gps {}
+
+.gps__imgs {}
+
+.gps__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+}
+
+@media (max-width: 973px) {
+    .gps__box {
+        right: 0;
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px) {
+    .gps__box {
+        right: 0;
+        width: 80%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 631px) {
+    .gps__box {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 509px) {
+    .gps__box {
+        flex-wrap: wrap;
+    }
+}
