@@ -1,6 +1,6 @@
 .promo {
     width: 100vw;
-    background: no-repeat center / cover url(./images/promo/IMAGE.png);
+    background: no-repeat center / cover url(../../images/promo/IMAGE.png);
     padding-top: 219px;
 }
 
