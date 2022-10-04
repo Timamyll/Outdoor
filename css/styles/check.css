@@ -1,6 +1,6 @@
 .check {
     width: 100vw;
-    background: no-repeat center / cover url(/images/check/01.png);
+    background: no-repeat center / cover url(./images/check/01.png);
 }
 
 .container {}
