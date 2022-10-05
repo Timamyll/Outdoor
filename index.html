@@ -39,7 +39,7 @@
 
                     </ul>
                     <ul class="nav__v2">
-                        <li class="nav__buttom"><a class="nav__butt" href="#popup">Buy template</a></li>
+                        <li class="nav__buttom"><a class="nav__butt popup-link" href="#popup">Buy template</a></li>
                         <li class="nav__buttom">
                             <img class="nav__img" src="./images/nav/02.svg" alt=""><a class="nav__butt" href="">Cart</a><img class="nav__imgs" src="./images/nav/03.svg" alt=""></li>
                     </ul>
@@ -388,12 +388,16 @@
         </div>
     </div>
     <div id="popup" class="popup">
-        <a class="popup__area" href=""></a>
         <div class="popup__body">
             <div class="popup__content">
-                <a class="popup__close" href="#">X</a>
-                <div class="popup__title">new1</div>
-                <div class="popup__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam repudiandae eos perferendis ad! Explicabo ad mollitia molestias deserunt unde, veniam repudiandae minima molestiae officia eius a, quos totam, laboriosam incidunt.</div>
+                <a class="popup__close close-popup" href="#">X</a>
+                <div class="popup__title">Feedback form</div>
+                <div class="popup__text">
+                    <input class="popup__inputs" type="text" placeholder="Name">
+                    <input class="popup__inputs" type="email" placeholder="email">
+                    <input class="popup__inputs" type="tel" placeholder="+77474446766">
+                    <button class="popup__buttom"><a class="popup__buttoms" href="">Send</a></button>
+                </div>
 
             </div>
         </div>
@@ -404,6 +408,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/poput.js"></script>
     <script src="js/main.js"></script>
 </body>
 
