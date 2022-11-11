@@ -77,3 +77,9 @@
         gap: 20px;
     }
 }
+
+@media (max-width: 826px) {
+    .nav__v2 {
+        flex-direction: column;
+    }
+}
